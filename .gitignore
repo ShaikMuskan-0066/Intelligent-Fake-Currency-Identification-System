@@ -1,0 +1,56 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model files (too large for GitHub, keep on Drive/Kaggle)
+*.h5
+*.keras
+*.npy
+*.npz
+*.pth
+*.pt
+*.onnx
+*.pkl
+*.joblib
+
+# Plots and outputs (optional — remove if you want them in repo)
+*.png
+*.jpg
+*.jpeg
+
+# Dataset files (too large for GitHub, keep locally or share externally)
+dataset/
+dateset/
+data/
+*.csv   # ignore annotation CSVs too
+
+# Logs
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# IDE/project settings
+.vscode/
+.idea/
+
+# Build/compiled files
+dist/
+build/
+*.egg-info/
